@@ -42,7 +42,7 @@ while True:
         log.info("faces: "+str(len(hands))+" at "+str(dt.datetime.now()))
 
         duration = dt.datetime.now() - time
-        if duration.total_seconds() > timeDelay && enableNotif:
+        if duration.total_seconds() > timeDelay and enableNotif:
             time = dt.datetime.now()
 
             hour = time.hour
